@@ -1,0 +1,36 @@
+BEEMA BEEVI M K
+Python / Django Backend Developer
+
+Performance-driven Backend Engineer with 2+ years of experience architecting and scaling enterprise backend systems using Python, Django, and Django REST Framework. Proven track record of developing production-grade platforms, including high-security systems for international government ministries.
+
+TECHNICAL SKILLS
+- Backend: Python, Django, Django REST Framework, GeoDjango
+- Databases: PostgreSQL, ORM Optimization, Indexing, Query Optimization
+- Distributed Systems: Celery, Redis, Message Queues, Background Processing
+- Security: JWT, OTP, MFA / 2FA, CAPTCHA, RBAC
+- Cloud & DevOps: AWS (EC2, S3, RDS, SES), Nginx, Gunicorn, GitHub Actions CI/CD
+- Integrations: REST APIs, OCI Storage, Mada Payment Integration, ZATCA Compliance
+
+PROFESSIONAL EXPERIENCE
+
+Veuz Concepts | Backend Engineer
+Saudi Ministry Project | Oct 2025 – Present
+- Architected and deployed highly secure, scalable backend infrastructure for an international government ministry.
+- Engineered a ZATCA-compliant centralized pricing and financial reconciliation engine.
+- Built an asynchronous Celery + Redis export pipeline supporting 55+ concurrent data export types without blocking API threads.
+- Implemented rigorous RBAC, OTP, sliding JWT sessions, CAPTCHA, and timing-attack protections.
+
+Eduport | Software Engineer, Backend
+High-Traffic B2C Learning Platform | Feb 2024 – Jan 2025
+- Spearheaded the V2 API architecture for a platform scaling to 500,000+ downloads and 50,000+ daily active users.
+- Systematically eliminated N+1 query bottlenecks and redesigned core schemas.
+- Implemented comprehensive Redis caching layers to drastically reduce database load by over 60% during peak traffic.
+
+Zecser Business LLP | Backend Developer
+Jan 2025 – May 2025
+- Led the backend architectural design and AWS cloud infrastructure provisioning.
+- Managed AWS deployments utilizing EC2, S3, RDS, and SES, orchestrated via Nginx and Gunicorn.
+- Established standardized Git workflows, automated CI/CD pipelines, and mentored junior developers.
+
+EDUCATION
+Bachelor of Science in Physics
