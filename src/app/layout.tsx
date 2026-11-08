@@ -1,21 +1,11 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navigation/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Beema Beevi M K | Backend Engineer & Systems Architect",
-  description: "Portfolio of Beema Beevi M K, a Backend Engineer specializing in Python, Django, distributed systems, and AWS cloud architecture.",
+  title: "Beema Beevi M K | Python & Django Backend Engineer",
+  description:
+    "Portfolio of Beema Beevi M K, Python & Django Backend Engineer specializing in RESTful APIs, database optimization (PostgreSQL/MySQL), Celery & Redis, Docker, and AWS deployments.",
 };
 
 export default function RootLayout({
@@ -24,16 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
-    >
-      <body className="min-h-full flex flex-col bg-background text-foreground">
+    <html lang="en" className="h-full antialiased dark scroll-smooth">
+      <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
         <Navbar />
-        <main className="flex-1 flex flex-col">
-          {children}
-        </main>
+        <main className="flex-1 flex flex-col">{children}</main>
       </body>
     </html>
   );
 }
+
